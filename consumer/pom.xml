@@ -27,11 +27,6 @@
         </dependency>
 
         <!--使用 feign -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-
         <!-- 客户端负载均衡 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
