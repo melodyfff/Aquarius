@@ -12,6 +12,7 @@
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>parent</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -25,6 +26,8 @@
     <modules>
         <module>register</module>
         <module>config</module>
+        <module>provider</module>
+        <module>consumer</module>
     </modules>
 
     <dependencies>

@@ -12,3 +12,12 @@ config/.idea
 config/*.iml
 config/target
 
+
+provider/.idea
+provider/*.iml
+provider/target
+
+
+consumer/.idea
+consumer/*.iml
+consumer/target
