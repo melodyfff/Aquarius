@@ -21,3 +21,8 @@ provider/target
 consumer/.idea
 consumer/*.iml
 consumer/target
+
+
+filter/.idea
+filter/*.iml
+filter/target
