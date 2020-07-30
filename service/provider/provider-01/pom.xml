@@ -4,24 +4,27 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xinchen.aquarius</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>provider</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>register</artifactId>
+    <artifactId>provider-01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>register</name>
+    <name>provider-01</name>
     <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
@@ -33,5 +36,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

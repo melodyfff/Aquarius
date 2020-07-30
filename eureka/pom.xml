@@ -7,13 +7,12 @@
         <artifactId>parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>config</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>config</name>
+    <artifactId>eureka</artifactId>
+    <name>eureka</name>
     <packaging>pom</packaging>
-    <description>config module</description>
+    <description>eureka model</description>
 
     <modules>
-        <module>config-01</module>
+        <module>eureka-01</module>
     </modules>
 </project>

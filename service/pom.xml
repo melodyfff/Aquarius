@@ -7,13 +7,13 @@
         <artifactId>parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>config</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>config</name>
+    <artifactId>service</artifactId>
+    <name>service</name>
     <packaging>pom</packaging>
-    <description>config module</description>
+    <description>service model</description>
 
     <modules>
-        <module>config-01</module>
+        <module>provider</module>
+        <module>consumer</module>
     </modules>
 </project>

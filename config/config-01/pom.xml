@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xinchen.aquarius</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>config</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>filter</artifactId>
+    <artifactId>config-01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>filter</name>
+    <name>config-01</name>
     <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
@@ -18,15 +18,14 @@
     </properties>
 
     <dependencies>
-        <!-- zuul网关服务 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-        </dependency>
-        <!--eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
     </dependencies>
 
@@ -38,5 +37,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

@@ -1,28 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
-*.iml
-target
+**/.idea
+**/*.iml
+**/target
 
-register/.idea
-register/*.iml
-register/target
-
-
-config/.idea
-config/*.iml
-config/target
-
-
-provider/.idea
-provider/*.iml
-provider/target
-
-
-consumer/.idea
-consumer/*.iml
-consumer/target
-
-
-filter/.idea
-filter/*.iml
-filter/target

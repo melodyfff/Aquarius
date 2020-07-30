@@ -4,16 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xinchen.aquarius</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>config</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>config</name>
+    <artifactId>consumer</artifactId>
+    <name>consumer</name>
     <packaging>pom</packaging>
-    <description>config module</description>
+    <description>consumer model</description>
 
     <modules>
-        <module>config-01</module>
+        <module>consumer-01</module>
     </modules>
 </project>

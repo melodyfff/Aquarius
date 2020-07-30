@@ -4,18 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xinchen.aquarius</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>consumer</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>consumer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>consumer</name>
+    <artifactId>consumer-01</artifactId>
+    <name>consumer-01</name>
     <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -48,24 +46,12 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <plugins>
@@ -75,5 +61,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
