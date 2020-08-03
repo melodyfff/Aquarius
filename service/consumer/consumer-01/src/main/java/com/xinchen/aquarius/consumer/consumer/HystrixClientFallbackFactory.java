@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @date Created In 2019/6/5 22:15
  */
 @Component
-public class HystrixClientFallbackFactory implements FallbackFactory {
+public class HystrixClientFallbackFactory implements FallbackFactory<HomeClient> {
     @Override
     public HomeClient create(Throwable throwable) {
         return ()-> "feign + hystrix ,提供者服务挂了";
